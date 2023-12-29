@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/gurjeetm/public_html/somenewdomaingg.com/
+    - /bin/cp somenew.sh $DEPLOYPATH
+
